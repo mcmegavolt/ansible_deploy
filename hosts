@@ -1,0 +1,7 @@
+[myapp]
+3.2.4.1
+
+[myapp:vars]
+ansible_user=myuser
+ansible_sudo_pass=mypass
+ansible_python_interpreter=/usr/bin/python3

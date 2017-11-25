@@ -1,0 +1,8 @@
+---
+
+- name: Deploy My App
+  hosts: myapp
+  become: true
+
+  roles:
+    - { role: debops.rails_deploy, tags: myapp }
